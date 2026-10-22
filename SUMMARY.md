@@ -1,3 +1,6 @@
+## 2026-10-23 08:08 JST (実行エラー・7日連続)
+ネットワークポリシーにより crowdworks.jp への接続が本日もブロックされています(Playwright: `net::ERR_TUNNEL_CONNECTION_FAILED`、curl: CONNECTトンネル失敗/403、proxy status: `connect_rejected` / "the egress proxy refused the connection or could not reach the host" host=crowdworks.jp:443)。Playwright/Chromiumのセットアップ(npm install playwright, プリインストール済みChromium `/opt/pw-browsers/chromium` の起動)は正常に完了しており、問題は crowdworks.jp への接続のみです。7日連続で同じ事象のため、案件検索を実行できませんでした。環境のネットワーク設定(セッションのタイトルバーの環境メニュー → Edit → Network access)で crowdworks.jp を許可ドメインに追加してください。詳細: https://code.claude.com/docs/en/cloud-environments#network-access
+
 ## 2026-10-22 08:08 JST (実行エラー・6日連続)
 ネットワークポリシーにより crowdworks.jp への接続が本日もブロックされています(Playwright: `net::ERR_TUNNEL_CONNECTION_FAILED`、proxy status: `connect_rejected` / "gateway answered 403 to CONNECT (policy denial or upstream failure)" host=crowdworks.jp:443)。Playwright/Chromiumのセットアップ(npm install playwright, プリインストール済みChromium `/opt/pw-browsers/chromium` の起動)は正常に完了しており、問題は crowdworks.jp への接続のみです。6日連続で同じ事象のため、案件検索を実行できませんでした。環境のネットワーク設定(セッションのタイトルバーの環境メニュー → Edit → Network access)で crowdworks.jp を許可ドメインに追加してください。詳細: https://code.claude.com/docs/en/cloud-environments#network-access
 
