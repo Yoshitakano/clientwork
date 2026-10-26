@@ -1,3 +1,6 @@
+## 2026-10-27 08:09 JST (実行エラー・11日連続)
+ネットワークポリシーにより crowdworks.jp への接続が本日もブロックされています(curl: CONNECTトンネル失敗/403、proxy status: `connect_rejected`、egress proxyがCONNECTを拒否、host=crowdworks.jp:443)。11日連続で同じ事象のため、案件検索を実行できませんでした。環境のネットワーク設定(セッションのタイトルバーの環境メニュー → Edit → Network access)で crowdworks.jp を許可ドメインに追加してください。詳細: https://code.claude.com/docs/en/cloud-environments#network-access
+
 ## 2026-10-26 08:08 JST (実行エラー・10日連続)
 ネットワークポリシーにより crowdworks.jp への接続が本日もブロックされています(curl: CONNECTトンネル失敗/403、proxy status: `connect_rejected` / "gateway answered 403 to CONNECT (policy denial or upstream failure)" host=crowdworks.jp:443)。10日連続で同じ事象のため、案件検索を実行できませんでした。環境のネットワーク設定(セッションのタイトルバーの環境メニュー → Edit → Network access)で crowdworks.jp を許可ドメインに追加してください。詳細: https://code.claude.com/docs/en/cloud-environments#network-access
 
