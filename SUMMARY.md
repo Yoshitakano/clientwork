@@ -1,3 +1,6 @@
+## 2026-11-17 08:08 JST (実行エラー・32日連続)
+ネットワークポリシーにより crowdworks.jp への接続が本日もブロックされています(curl: CONNECTトンネル失敗/403、proxy status: `connect_rejected` / "gateway answered 403 to CONNECT (policy denial or other refusal)" host=crowdworks.jp:443)。32日(1ヶ月超)連続で同じ事象のため、案件検索を実行できませんでした。この自動実行には承認者がいないため update_environment/create_environment による変更は毎回拒否される(既知)ので、今回は再試行していません。解決には、人が環境設定(セッションのタイトルバーの環境メニュー → Edit → Network access)で crowdworks.jp を許可ドメインに追加する必要があります。詳細: https://code.claude.com/docs/en/cloud-environments#network-access
+
 ## 2026-11-16 08:08 JST (実行エラー・31日連続)
 ネットワークポリシーにより crowdworks.jp への接続が本日もブロックされています(curl: CONNECTトンネル失敗/403、proxy status: `connect_rejected` / "gateway answered 403 to CONNECT (policy denial or other refusal)" host=crowdworks.jp:443)。31日(1ヶ月超)連続で同じ事象のため、案件検索を実行できませんでした。この自動実行には承認者がいないため update_environment/create_environment による変更は毎回拒否される(既知)ので、今回は再試行していません。解決には、人が環境設定(セッションのタイトルバーの環境メニュー → Edit → Network access)で crowdworks.jp を許可ドメインに追加する必要があります。詳細: https://code.claude.com/docs/en/cloud-environments#network-access
 
